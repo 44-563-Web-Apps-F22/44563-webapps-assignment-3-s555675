@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Hello Barecats </title>
 </head>
+<style>
+table, th, td {
+    border: 1px solid black;
+  }
+  </style>  
 <body>
-    
+    <div class="heading">
 <h1>Ishaaq Ahamed  Shaik</h1>
+</div>
 <p>This is largest Art museum it holds a collection of <b>International Arts</b>.
 For increasing the access of museum collections and resorces it using the digital media.
 The Museum lives in two iconic sites in <b>New York City</b>.
@@ -31,14 +37,84 @@ The Museum lives in two iconic sites in <b>New York City</b>.
         <h5>Famous locations near the Museum
         </h5>
         <ul>
-            <li>I would suggest the places near by the metropolitan Museum</li>
+            <li>I would suggest the places near by the metropolitan Museum.</li>
             <li>The Central Park</li>
             <li>Solomon R.Guggenheim</li>
             <li>Empire state building </li>
         </ul>
-        <a href="aboutme.html">Aboutme </a>
+    
+        <a href="aboutme.html">Aboutme </a> 
+
+    <hr>
+    <h1> TABLES</h1>
+    <table>
+        <tr> 
+            <th>Name of the city i recommand some one to visit </th>
+            <th> Important location in the city to visit </th>
+            <th>Amount of time to spend </th>
+        
+        </tr>
+        <tr> 
+            <td> vijayawada</td>
+            <td> Prakasham birrage</td>
+            <td> 3</td>
+        </tr>
+        <tr> 
+            <td> Nagpur</td>
+            <td> Nuclear fision center</td>
+            <td> 5</td>
+        </tr>
+        <tr>
+            <td> chennai</td>
+            <td> marina beach</td>
+            <td>  5</td>
+         </tr>
+         <tr>
+            <td>kerala</td>
+            <td>Nature and pure coconut oil</td>
+            <td> 7 </td>
+         </tr>
+
+        
+    </table>
+    <hr>
+    <h1>
+        Code Display 
+    </h1>
+    <blockquote> 
+        <a hrfc=""https://in.pinterest.com/pin/svg-how-to-generate-vector-tile-patterns-in-inkscape-stack-overflow--424464333637193597/>How to svg-how-to-generate-vector-tile-patterns-in-inkscape-stack-overflow--424464333637193597</a>
+    </blockquote>
+    <pre>
+        <svg width="100%" height="100%">
+  
+            <!-- Create mask that we'll use to define a slight gradient -->
+            <mask maskUnits="userSpaceOnUse" id="fade">
+              <!-- Here's that slight gradient -->
+                   <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="100%">
+                <stop offset="0" style="stop-color: #FFFFFF"></stop>
+                <stop offset="1" style="stop-color: #000000"></stop>
+              </linearGradient>
+              <!-- The canvas for our mask -->
+              <rect fill="url(#gradient)" width="100%" height="100%"></rect>
+            </mask>
+              
+            <!-- Let's define the pattern -->
+            <!-- The width and height should be double the circle radius we plan to use -->
+            <pattern id="pattern-circles" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+              <!-- Now let's draw the circle -->
+              <!-- We're going to define the `fill` in the CSS for flexible use -->
+              <circle mask="url(#fade)" cx="20" cy="20" r="20"></circle>
+            </pattern>
+            <!-- The canvas with our applied pattern -->
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+            
+          </svg>
+    </pre>
+    <a hrfc=""https://css-tricks.com/snippets/svg/svg-patterns/>Generate vector pattern title</a>
+
 
     
 </body>
+</html>
 
 
